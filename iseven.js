@@ -8,6 +8,7 @@ Test it on 50 and 75. See how it behaves on -1. Why? Can you think of a
 way to fix this?*/
 
 function checkEven(num) {
+
   // base case
   if (num === 0) return true;
   if (num === 1) return false;
@@ -31,3 +32,9 @@ function power(base, exponent) {
 }
 
 console.log(power(2, 4));
+
+  //base case
+  if (num === 0) return true
+  if (num === 1) return false
+}
+
